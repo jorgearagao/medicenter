@@ -171,7 +171,7 @@ nav .active a, nav a:hover {
     margin-top: 10px;
 }
 
-.widget_body {
+.widget_square {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
