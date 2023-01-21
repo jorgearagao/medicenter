@@ -199,6 +199,17 @@ nav .active a, nav a:hover {
     padding-bottom: 10px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
 article a {
     text-decoration: none;
 }
@@ -242,4 +253,6 @@ article .news_resume {
     color: #5c5c5c;
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 30px;
 }
+
